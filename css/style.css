@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    "Pretendard Variable",
+    Pretendard,
+    -apple-system,
+    BlinkMacSystemFont,
+    system-ui,
+    Roboto,
+    "Helvetica Neue",
+    "Segoe UI",
+    "Apple SD Gothic Neo",
+    "Noto Sans KR",
+    "Malgun Gothic",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    sans-serif;
+  background-color: #edede9;
+}
+
+header {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #343a40;
+}
+
+main .team-section .member-container .member a {
+  font-size: 128px;
+}
+
+main .team-section {
+  width: 100%;
+}
+
+.team-section .member-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.team-section .member-container .member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.team-section .member-container .member h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #495057;
+}
