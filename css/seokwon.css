@@ -1,0 +1,84 @@
+body {
+  background-color: #000;
+  font-family:
+    "Pretendard Variable",
+    Pretendard,
+    -apple-system,
+    BlinkMacSystemFont,
+    system-ui,
+    Roboto,
+    "Helvetica Neue",
+    "Segoe UI",
+    "Apple SD Gothic Neo",
+    "Noto Sans KR",
+    "Malgun Gothic",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    sans-serif;
+}
+
+main {
+  width: 100%;
+  color: #dee2e6;
+}
+
+main .hero {
+  padding: 150px 0 100px;
+}
+
+main .hero .video-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.video-wrap video {
+  width: 100%;
+  opacity: 0.3;
+}
+
+.hero .hero-title {
+  position: absolute;
+  margin: 0 auto;
+  z-index: 1;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.hero .hero-title .codeit {
+  color: #9933ff;
+}
+
+main .introduce-section {
+  width: 100%;
+}
+
+main .container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.introduce-section .container .introduce-wrap {
+  margin-bottom: 64px;
+}
+
+.introduce-wrap .red-sign {
+  color: #ae0336;
+}
+
+.introduce-wrap .question {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.introduce-wrap .answer {
+  font-size: 1.15rem;
+  font-weight: 200;
+  padding: 12px 24px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
