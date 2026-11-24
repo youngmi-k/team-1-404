@@ -10,28 +10,40 @@
       href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+    />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header>
-      <h1>404 팀을 소개합니다!</h1>
+      <h1 class="title">404 팀을 소개합니다!</h1>
     </header>
     <main>
-      <section>
-        <h2>강영미</h2>
-      </section>
-      <section>
-        <h2>박은정</h2>
-      </section>
-      <section>
-        <h2>이석원</h2>
-      </section>
-      <section>
-        <h2>임성재</h2>
+      <section class="team-section">
+        <div class="member-container">
+          <div class="member">
+            <h2>강영미</h2>
+            <a href="">👩‍🦰</a>
+          </div>
+          <div class="member">
+            <h2>박은정</h2>
+            <a href="">👩</a>
+          </div>
+          <div class="member">
+            <h2>이석원</h2>
+            <a href="/seokwon">👨</a>
+          </div>
+          <div class="member">
+            <h2>임성재</h2>
+            <a href="">🧑‍🦰</a>
+          </div>
+        </div>
       </section>
     </main>
-    <footer>
-      <p>코드잇 스프린트 FS 18기 Part1</p>
-    </footer>
   </body>
 </html>
