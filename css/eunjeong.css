@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Pretendard", -apple-system, "Apple SD Gothic Neo", sans-serif;
+  background: #f5f6fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+.back {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+/* 발표용: 큰 글씨 */
+.hero {
+  text-align: center;
+  padding: 90px 20px 70px;
+  background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+  color: #fff;
+}
+
+.hello {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+}
+
+.accent {
+  color: #ffeaa7;
+}
+
+.tagline {
+  margin-top: 16px;
+  font-size: 1.4rem;
+  opacity: 0.9;
+}
+
+main {
+  max-width: 900px;
+  margin: -40px auto 0;
+  padding: 0 20px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  font-size: 1.6rem;
+  color: #6c5ce7;
+  margin-bottom: 18px;
+}
+
+.card p,
+.card li {
+  font-size: 1.25rem;
+}
+
+.info {
+  list-style: none;
+}
+
+.info li {
+  padding: 6px 0;
+}
+
+.info span {
+  display: inline-block;
+  width: 100px;
+  color: #888;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tags span {
+  background: #ece9ff;
+  color: #6c5ce7;
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.points {
+  padding-left: 22px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 1.5rem;
+  color: #6c5ce7;
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+  .hero h1 {
+    font-size: 2.4rem;
+  }
+}
